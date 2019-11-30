@@ -1,9 +1,9 @@
 body {margin: 0 auto; padding: 0; background-color: #fff;}
 .header-nav {background-color: #34495E; max-width: 100%; margin: 0 auto; padding: 0; text-align: center;}
-nav {margin: 0 auto; max-width: 100%; height: 35px; padding: 0; position: relative;}
-nav ul {padding: 0; width:60%; margin: 0 auto; height: auto; text-align: center; position: relative;}
+nav {margin: 0 auto; max-width: 100%; height: 40px; padding: 0; position: relative;}
+nav ul {padding: 5px; width:60%; margin: 0 auto; height: auto; text-align: center; position: relative;}
 nav li {font-family: Helvetica; display: inline-block; font-size: 18px; line-height: 30px; text-decoration: none;}
-nav a {background-color: #34495E; color: #fff;padding: 10px; text-decoration: none;}
+nav a {background-color: #34495E; color: #fff;padding: 10px; text-decoration: none; }
 nav a:hover {background-color:#ECF0F1; color: #000;}
 
 .wrapper {background-color: #ccc; max-width:100%; height: 100%; margin: 0 auto; padding: 0;}
