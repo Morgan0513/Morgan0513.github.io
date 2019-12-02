@@ -70,8 +70,8 @@ footer {background-color: #000; max-width: 100%; min-height: 300px; position: re
 .footercontent {max-width: 700px; min-height: 60px; margin: 0 auto; padding: 0;}
 .footercontent p {color: #ffcc00;}
 footer ul {max-width: 500px; height: auto; padding: 0;}
-footer li {font-family: helvetica; font-size: 16px; line-height: 20px;margin-bottom: 20px; }
-footer a {background-color: #000; color: #fff; padding: 10px; text-decoration: none;}
+footer li {font-family: helvetica; font-size: 16px; line-height: 20px;margin-bottom: 10px; }
+footer a {background-color: #000; color: #fff; padding: 6px 10px; text-decoration: none;}
 footer a:hover {background-color: #85929E; color: #fff;}
 
 
@@ -79,4 +79,5 @@ footer a:hover {background-color: #85929E; color: #fff;}
 @media screen and (max-width: 768px) {
 	nav ul {width: 100%;}
 	nav li {font-size: 16px; line-height: 43px;}
+	h1 {font-size: 36px; margin: 20px 0 8px 0;}
 }
