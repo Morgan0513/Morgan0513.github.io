@@ -1,13 +1,13 @@
 body {margin: 0 auto; padding: 0; background-color: #fff;}
 .header-nav {background-color: #34495E; max-width: 100%; margin: 0 auto; padding: 0; text-align: center;}
 nav {margin: 0 auto; max-width: 100%; height: 40px; padding: 0; position: relative;}
-nav ul {padding: 5px; width:60%; margin: 0 auto; height: auto; text-align: center; position: relative;}
-nav li {font-family: Helvetica; display: inline-block; font-size: 18px; line-height: 30px; text-decoration: none;}
+nav ul {padding: 0; width:60%; margin: 0 auto; height: auto; text-align: center; position: relative;}
+nav li {font-family: Helvetica; display: inline-block; font-size: 18px; line-height: 40px; text-decoration: none;}
 nav a {background-color: #34495E; color: #fff;padding: 10px; text-decoration: none; }
 nav a:hover {background-color:#ECF0F1; color: #000;}
 
 .wrapper {background-color: #ECF0F1; max-width:100%; height: 100%; margin: 0 auto; padding: 0;}
-.bodycontent {background-color: #ECF0F1; width: 700px; min-height: 500px; margin: 0 auto; padding: 0;}
+.bodycontent {background-color: #ECF0F1; width: 700px; min-height: 500px; margin: 0 auto; padding: 0; max-width: 100%;}
 .content-padding {padding: 20px;}
 
 p a {text-decoration: none; color: #9B59B6; font-weight: bold; }
@@ -67,9 +67,16 @@ p {color: #000; font-size: 16px; font-family: helvetica; line-height: 20px; marg
 .left-side {width: 50%; float: left;}
 .right-side {width: 50%; float: right;}
 footer {background-color: #000; max-width: 100%; min-height: 300px; position: relative; margin: 0 auto; padding: 0;}
-.footercontent {width: 700px; min-height: 60px; margin: 0 auto; padding: 0;}
+.footercontent {max-width: 700px; min-height: 60px; margin: 0 auto; padding: 0;}
 .footercontent p {color: #ffcc00;}
-footer ul {width: 500px height: auto; padding: 0;}
+footer ul {max-width: 500px; height: auto; padding: 0;}
 footer li {font-family: helvetica; font-size: 16px; line-height: 20px;margin-bottom: 20px; }
 footer a {background-color: #000; color: #fff; padding: 10px; text-decoration: none;}
 footer a:hover {background-color: #85929E; color: #fff;}
+
+
+/*Styles for screen 768px and lower*/
+@media screen and (max-width: 768px) {
+	nav ul {width: 100%;}
+	nav li {font-size: 16px; line-height: 43px;}
+}
